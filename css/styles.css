@@ -1,4 +1,69 @@
+body {
+    background-color: rgb(115, 188, 159);
+}
+
 h1 {
     text-align: center;
     font-family: "Poppins";
+    font-size: 3em;
+    color: white;
 }
+
+.hamster{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.hamster-body {
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    border-radius: 80px 120px 50px 120px;
+}
+
+.hamster-inner-body {
+    background-color: rgb(153, 160, 157);
+    height: 170px;
+    width: 340px;
+    border-radius: 80px 120px 50px 120px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+
+.hamster-tail {
+    background-color: white;
+    height: 25px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: 330px;
+    z-index: -1;
+}
+
+.leg1 {
+    background-color: white;
+    height: 50px;
+    width: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    left: 100px;
+    z-index: -1;
+    rotate: 45deg;
+}
+
+.leg2 {
+    background-color: white;
+    height: 50px;
+    width: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: -80px;
+    left: 280px;
+    z-index: -1;
+    rotate: -45deg;
+}
+
