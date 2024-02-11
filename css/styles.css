@@ -100,32 +100,51 @@ h1 {
     z-index: 1;
 }
 
-.ear1 {
+.hamster-ears div {
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(243,228,237,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgb(237, 209, 226) 100%);
     height: 30px;
     width: 30px;
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top: 5px solid rgb(108, 108, 108);
+    z-index: 1;
+}
+
+.ear1 {
     rotate: 40deg;
     position: relative;
     top: -180px;
-    left: 60px;
-    z-index: 1;
-    border-top: 5px solid rgb(108, 108, 108);
+    left: 60px; 
 }
 
 .ear2 {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(243,228,237,1) 100%);
-    height: 30px;
-    width: 30px;
-    border-top-left-radius: 90px;
-    border-top-right-radius: 90px;
     rotate: 90deg;
     position: relative;
     top: -130px;
     left: 100px;
+}
+
+.hamster-eyes div{
+    background-color: black;
+    height: 20px;
+    width: 22px;
+    border-radius: 50%;
     z-index: 1;
-    border-top: 5px solid rgb(108, 108, 108);
+}
+
+.eye1 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    rotate: 30deg;
+}
+
+.eye2 {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    rotate: 90deg;
 }
