@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(115, 188, 159);
 }
@@ -11,8 +15,13 @@ h1 {
 
 .hamster{
     position: absolute;
-    top: 35%;
-    left: 40%;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 350px;
+    height: 250px;
 }
 
 .hamster-body {
@@ -32,6 +41,17 @@ h1 {
     left: 10px;
 }
 
+.hamster-back-line {
+    background-color: rgb(127, 125, 125);
+    height: 10px;
+    width: 240px;
+    border-radius: 80px 120px 50px 120px;
+    position: relative;
+    top: -100px;
+    left: 100px;
+
+}
+
 .hamster-tail {
     background-color: white;
     height: 25px;
@@ -44,7 +64,7 @@ h1 {
 }
 
 .leg1 {
-    background-color: white;
+    background-color: rgb(243, 228, 237);
     height: 50px;
     width: 20px;
     border-radius: 50%;
@@ -56,7 +76,7 @@ h1 {
 }
 
 .leg2 {
-    background-color: white;
+    background-color: rgb(243, 228, 237);
     height: 50px;
     width: 20px;
     border-radius: 50%;
@@ -67,3 +87,45 @@ h1 {
     rotate: -45deg;
 }
 
+.hamster-nose {
+    background-color: rgb(192, 181, 187);
+    height: 10px;
+    width: 10px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    rotate: 100deg;
+    position: relative;
+    top: -160px;
+    left: 15px;
+    z-index: 1;
+}
+
+.ear1 {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(243,228,237,1) 100%);
+    height: 30px;
+    width: 30px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    rotate: 40deg;
+    position: relative;
+    top: -180px;
+    left: 60px;
+    z-index: 1;
+    border-top: 5px solid rgb(108, 108, 108);
+}
+
+.ear2 {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(243,228,237,1) 100%);
+    height: 30px;
+    width: 30px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    rotate: 90deg;
+    position: relative;
+    top: -130px;
+    left: 100px;
+    z-index: 1;
+    border-top: 5px solid rgb(108, 108, 108);
+}
