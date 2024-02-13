@@ -127,12 +127,22 @@ h1 {
     left: 100px;
 }
 
+@keyframes blink {
+   10% {
+    transform: scaleY(0.2)
+   } 
+   50% {
+    transform: scaleY(1)
+   }
+}
+
 .hamster-eyes div{
-    background-color: black;
+    background: black;
     height: 20px;
     width: 22px;
     border-radius: 50%;
     z-index: 1;
+    animation: blink 5s infinite;
 }
 
 .eye1 {
@@ -148,3 +158,4 @@ h1 {
     left: 50px;
     rotate: 90deg;
 }
+
