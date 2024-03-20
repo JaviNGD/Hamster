@@ -1,4 +1,4 @@
-<h1>Animated Hamster made with html and css.</h1>
+# Animated Hamster made with CSS and HTML.
 
-<b><a href="https://codepen.io/JaviNGD/pen/XWGoZaw">Preview</a></b>
+<b><a href="https://javingd.github.io/Hamster/">Preview</a></b>
 
